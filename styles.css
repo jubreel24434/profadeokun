@@ -71,7 +71,7 @@ body {
 .hero-photo {
   width: 160px;
   height: 160px;
-  object-fit: cover;
+  object-fit: scale-down;
   border-radius: 6px;
   border: 1px solid #ddd;
 }
@@ -157,3 +157,4 @@ button {
     border-radius: 6px;
   }
 }
+
