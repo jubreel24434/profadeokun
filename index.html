@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Professor O. A. Adeokun — Olabisi Onabanjo University</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Prof. O. A. Adeokun</h1>
+      <button id="menuBtn" class="menu-btn">☰</button>
+      <nav id="nav" class="nav">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="hero" class="hero">
+      <img src="images/Prof Adeokun.jpg" alt="Professor Adeokun" class="hero-photo" />
+      <div class="hero-text">
+        <h2>Professor Oluwatobi Adesiji Adeokun</h2>
+        <p class="muted">Professor, Department of Agricultural Extension & Rural Sociology — College of Agricultural Sciences, Olabisi Onabanjo University.</p>
+        <p>Email: 
+          <a id="emailLink" href="mailto:adesiji.oluwatobi@oouagoiwoye.edu.ng">
+            adesiji.oluwatobi@oouagoiwoye.edu.ng
+          </a>
+        </p>
+        <a href="files/Professor_Adeokun_CV.pdf" class="cv-btn" download>📄 Download Full CV (PDF)</a>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h3>About</h3>
+      <p>
+        Professor Adeokun is a senior academic in Agricultural Extension and Rural Development with long service in teaching,
+        research and administration. He has served as Head of Department, Provost of the College of Agricultural Sciences and as
+        coordinator of several university and national programmes.
+      </p>
+    </section>
+
+    <section id="education" class="card">
+      <h3>Education</h3>
+      <ul>
+        <li>Ph.D (Agricultural Extension), University of Ibadan — 2000</li>
+        <li>M.Sc. (Agricultural Extension), University of Ibadan — 1988</li>
+        <li>B.Sc. (Hons) Agricultural Extension, University of Ibadan — 1983</li>
+      </ul>
+    </section>
+
+    <section id="experience" class="card">
+      <h3>Selected Work & Administrative Roles</h3>
+      <ul>
+        <li>Provost, College of Agricultural Sciences, Olabisi Onabanjo University (2012–2016).</li>
+        <li>Head, Department of Agricultural Extension & Rural Sociology (multiple terms).</li>
+        <li>Coordinator, Departmental Postgraduate Programme; Chairman, Departmental Research Committee.</li>
+      </ul>
+    </section>
+
+    <section id="publications" class="card">
+      <h3>Selected Publications</h3>
+      <div id="pubList"></div>
+      <p class="muted">Full list available in the downloadable CV above.</p>
+    </section>
+
+    <section id="gallery" class="card">
+      <h3>Photos</h3>
+      <div class="photos">
+        <img src="images/Prof Adeokun2.jpg" alt="Professor Adeokun (2)" />
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h3>Contact</h3>
+      <p>Email: 
+        <a href="mailto:adesiji.oluwatobi@oouagoiwoye.edu.ng">
+          adesiji.oluwatobi@oouagoiwoye.edu.ng
+        </a>
+      </p>
+      <form id="contactForm">
+        <label for="name">Your name</label>
+        <input id="name" name="name" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send message (via mail app)</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Professor O. A. Adeokun — Olabisi Onabanjo University</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
